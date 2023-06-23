@@ -10,6 +10,10 @@
 
 ![DevSecoPS REX AWS](https://github.com/sanogotech/cheatsheetDevSecOps/blob/master/docs/CICDJenkinsSonarqube.jpg)
 
+##  Flow  DevOps
+
+![Flow  DevOPS ](https://github.com/sanogotech/cheatsheetDevSecOps/blob/master/docs/CIFlow.jpg)
+
 ## Build and push a container image to Docker Hub from your computer
 
 ![Docker Image Container ](https://github.com/sanogotech/cheatsheetDevSecOps/blob/master/docs/dockerFileImageContainer.jpg)
