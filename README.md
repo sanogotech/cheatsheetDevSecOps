@@ -16,6 +16,12 @@
 
 Start by creating a Dockerfile to specify your application as shown below:
 
+*  Code Sample :
+
+    - https://github.com/sanogotech/docker-sample-nginx
+ 
+   
+
 ```
 # syntax=docker/dockerfile:1
 FROM busybox
