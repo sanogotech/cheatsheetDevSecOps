@@ -12,6 +12,8 @@
 
 ## Build and push a container image to Docker Hub from your computer
 
+![Docker Image Container ](https://github.com/sanogotech/cheatsheetDevSecOps/blob/master/docs/dockerFileImageContainer.jpg)
+
 Start by creating a Dockerfile to specify your application as shown below:
 
 ```
