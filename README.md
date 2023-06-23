@@ -1,5 +1,6 @@
 ## References of Devops
 
+<<<<<<< HEAD
 
 
 ## Build and push a container image to Docker Hub from your computer
@@ -40,3 +41,12 @@ to push your Docker image to Docker Hub. You should see output similar to:
 docker exec -it container-name sh
 
 docker logs <contaner> > <logfile.txt>
+=======
+## Docs
+
+- https://medium.com/@adewopol/devops-project-8ef09a0e172a
+  
+## DevSecOps  REX
+
+![DevSecoPS REX AWS](https://github.com/sanogotech/cheatsheetDevSecOps/blob/master/docs/CICDJenkinsSonarqube.jpg)
+>>>>>>> 208b0e4b2f1ea2ed85d55cf36c780ed6ad62f093
