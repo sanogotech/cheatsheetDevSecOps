@@ -9,6 +9,8 @@
 
 ## How to connect to the Docker host from inside a Docker container?
 
+* https://github.com/sanogotech/connect-docker-host-from-docker-container-example
+  
 ## DevSecOps  REX
 
 ![DevSecoPS REX AWS](https://github.com/sanogotech/cheatsheetDevSecOps/blob/master/docs/CICDJenkinsSonarqube.jpg)
