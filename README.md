@@ -10,7 +10,33 @@
 ## How to connect to the Docker host from inside a Docker container?
 
 * https://github.com/sanogotech/connect-docker-host-from-docker-container-example
+
+* https://github.com/sanogotech/wordpress-docker-compose
+
+
+```
+  services:
+  wp:
+    image: wordpress:latest # https://hub.docker.com/_/wordpress/
+    ports:
+      - ${IP}:${PORT}:80 # change ip if required
+    volumes:
+      - ./config/php.conf.ini:/usr/local/etc/php/conf.d/conf.ini
+      - ./wp-app:/var/www/html # Full wordpress project
+      #- ./plugin-name/trunk/:/var/www/html/wp-content/plugins/plugin-name # Plugin development
+      #- ./theme-name/trunk/:/var/www/html/wp-content/themes/theme-name # Theme development
+    environment:
+      WORDPRESS_DB_HOST: db
+      WORDPRESS_DB_NAME: "${DB_NAME}"
+      WORDPRESS_DB_USER: root
+      WORDPRESS_DB_PASSWORD: "${DB_ROOT_PASSWORD}"
+    depends_on:
+      - db
+    links:
+      - db
   
+```
+
 ## DevSecOps  REX
 
 ![DevSecoPS REX AWS](https://github.com/sanogotech/cheatsheetDevSecOps/blob/master/docs/CICDJenkinsSonarqube.jpg)
