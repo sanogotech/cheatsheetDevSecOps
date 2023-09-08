@@ -11,6 +11,19 @@
 
 * https://github.com/sanogotech/connect-docker-host-from-docker-container-example
 
+```yml
+version: "3.8"
+services:
+
+  ubuntu:
+    image: ubuntu
+    container_name: ubuntu
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    command: sleep infinity
+
+```
+
 * https://github.com/sanogotech/wordpress-docker-compose
 
 
