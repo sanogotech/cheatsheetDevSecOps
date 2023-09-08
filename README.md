@@ -14,7 +14,7 @@
 * https://github.com/sanogotech/wordpress-docker-compose
 
 
-```
+```yml
   services:
   wp:
     image: wordpress:latest # https://hub.docker.com/_/wordpress/
