@@ -1,6 +1,11 @@
 # What is DevSecOps?
 
-DevSecOps, short for Development, Security, and Operations, is a methodology that integrates security practices within the DevOps process. It emphasizes the importance of incorporating security measures throughout the entire software development lifecycle (SDLC) rather than treating security as a separate or final step. DevSecOps aims to make security a shared responsibility among development, security, and operations teams, fostering a culture where security is an integral part of the development process.
+DevSecOps, short for Development, Security, and Operations, is a methodology that integrates security practices within the DevOps process. It emphasizes the importance of incorporating security measures throughout the entire software development lifecycle (SDLC) rather than treating security as a separate or final step. DevSecOps aims to make security a shared responsibility among development, security, and 
+operations teams, fostering a culture where security is an integral part of the development process.
+
+![DevSecOps](https://github.com/sanogotech/cheatsheetDevSecOps/blob/master/Starter/WHATisDevSecOps.gif)
+
+
 
 ### Key Concepts in DevSecOps
 
